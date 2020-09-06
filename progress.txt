@@ -1,0 +1,58 @@
+	Add C# grammar
+	Add folder arg to be Covid19 radar
+	Enumerate all C# files in folder
+	Read file contents line by line, write into file.cs.lines
+	Read language tokens from lines, write into file.cs.tokens
+	Replace all code chars with spaces, write into file.cs.stripped
+	Split names by camelCase, write into file.cs.split
+	Extract name and counts in Json, with file, line, char and token, write into file.cs.names
+	Extract words and counts in Json, with file, line, char and full token, write into file.cs.words
+	Gather all names and words in curiosity.names and curiosity.words
+	Add list of ignore file extensions
+	Move Utility functions in utility.js
+
+	Find word cloud visualisation
+	https://openbase.io/packages/top-javascript-word-cloud-libraries
+	https://wordcloud2-js.timdream.org/#love
+Move grammar functions in grammar.js
+	Ignore Casing in word dictionary
+	Extract file.cs.wordcloud with just	words and instance count, sorted by count
+	Read dictionaries from command line to be substracted
+	Remove word intersection from one dictionary, output the results in file
+	Normalize range of output dictionary, for visualisation
+	Remove digits from words
+	Adapt words format for visualisation
+	Split words by _ underscore
+	Find graph visualisation library: http://sigmajs.org/
+	Add stats for words: files named, directory name count, classes and so on.
+	Create file.cs.graph with word relations by token, line and file
+
+	Normalize by position , not by count, to cover all available sizes in visualisation
+
+	Remove tech to tech relations
+Remove tech nodes below 9990
+	Highligh selected node and relations
+View evolution in time
+Move logic for words+connection -> graph from Backend to UI
+
+Bigger labels
+Layout algorithm drop down selector
+
+
+Add selector for connection level to use (name, line, file, property), maybe multiple selection
+		property -> name, type, value
+		uses -> name (includes new)
+		dependsOn -> dependency injection 
+Add typescript grammar for Java and other languages
+
+Collapsable details panel on the right
+		Include file names for the connection
+		Link to open file in Windows, or online viewer
+
+Add code block relation to graph
+Create ignore word list
+Replace targetDirectory with relative path in words and names files
+Add directory and file names to name and word instances
+Use one wordcloud weight as filter in another word cloud, remove technical terms by using .net core repository word cloud
+Add timebox for parsing files, so we don't wait forever on problem files, see BinaryFormatterTestData.cs in dotnet runtime
+Anonymize data with fictive client names
