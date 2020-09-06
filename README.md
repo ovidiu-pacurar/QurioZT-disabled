@@ -1,1 +1,1 @@
-# QurioZT
+# QurioZT - more business, less code
