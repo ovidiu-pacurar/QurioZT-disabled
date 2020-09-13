@@ -33,19 +33,19 @@ Move grammar functions in grammar.js
 Remove tech nodes below 9990
 	Highligh selected node and relations
 View evolution in time
-Move logic for words+connection -> graph from Backend to UI
+Move logic for words+connection -> graph from Backend to UI (Ovidiu)
 
-Bigger labels
+Bigger labels (Marinel)
 Layout algorithm drop down selector
 
 
-Add selector for connection level to use (name, line, file, property), maybe multiple selection
+Add selector for connection level to use (name, line, file, property), maybe multiple selection (Ovidiu)
 		property -> name, type, value
 		uses -> name (includes new)
 		dependsOn -> dependency injection 
 Add typescript grammar for Java and other languages
 
-Collapsable details panel on the right
+Collapsable details panel on the right (Marinel)
 		Include file names for the connection
 		Link to open file in Windows, or online viewer
 
